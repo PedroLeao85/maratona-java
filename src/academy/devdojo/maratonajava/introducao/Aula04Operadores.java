@@ -23,11 +23,11 @@ public class Aula04Operadores {
         boolean isDezIgualDez = 10 == 10;
         boolean isDezDiferenteDez = 10 != 10;
 
-        System.out.println("isDezMaiorQueVinte " +isDezMaiorQueVinte);
-        System.out.println("isDezMenorQueVinte " +isDezMenorQueVinte);
-        System.out.println("isDezIgualVinte " +isDezIgualVinte);
-        System.out.println("isDezIgualDez " +isDezIgualDez);
-        System.out.println("isDezDiferenteDez " +isDezDiferenteDez);
+        System.out.println("isDezMaiorQueVinte " + isDezMaiorQueVinte);
+        System.out.println("isDezMenorQueVinte " + isDezMenorQueVinte);
+        System.out.println("isDezIgualVinte " + isDezIgualVinte);
+        System.out.println("isDezIgualDez " + isDezIgualDez);
+        System.out.println("isDezDiferenteDez " + isDezDiferenteDez);
 
         // &&(and), || (or), !
 
@@ -38,6 +38,13 @@ public class Aula04Operadores {
 
         System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta " + isDentroDaLeiMenorQueTrinta);
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000F;
+        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+
+        System.out.println("isPlaystationCincoCompravel " + isPlaystationCincoCompravel);
 
 
     }
