@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula05EstruturasCondicionais {
+public class Aula05EstruturasCondicionais01 {
 
     public static void main(String[] args) {
         int idade = 15;
@@ -9,7 +9,11 @@ public class Aula05EstruturasCondicionais {
         //operador de negação !
         if(isAutorizadoComprarBebida){
             System.out.println("Autorizado comprar bebida alcoolica");
+        }else{
+            System.out.println("Não autorizado comprar bebida alcoolica");
         }
+
+
 
         if(!isAutorizadoComprarBebida){
             System.out.println("Não autorizado comprar bebida alcoolica");
