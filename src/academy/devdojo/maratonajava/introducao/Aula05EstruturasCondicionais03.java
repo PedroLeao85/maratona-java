@@ -10,7 +10,11 @@ public class Aula05EstruturasCondicionais03 {
         String mensagemNaoDoar = "Ainda não tenho condições, mas vou ter";
         String resultado = salario > 5000 ? mensagemDoar : mensagemNaoDoar;
 
+        boolean possoDoar = salario < 5000 ? true : false;
+
 
         System.out.println(resultado);
+        System.out.println(salario > 5000 ? mensagemDoar : mensagemNaoDoar);
+        System.out.println(possoDoar);
     }
 }
