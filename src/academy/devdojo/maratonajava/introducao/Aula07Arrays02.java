@@ -11,10 +11,11 @@ public class Aula07Arrays02 {
         System.out.println(idades[1]);
         System.out.println(idades[2]);
 
-        booel [] idades1 = new char[3];
+        boolean [] idades1 = new boolean[3];
         System.out.println(idades[0]);
         System.out.println(idades[1]);
         System.out.println(idades[2]);
+
 
         float [] idades2 = new float[3];
         System.out.println(idades[0]);
