@@ -26,5 +26,17 @@ public class Aula07Arrays02 {
         System.out.println(idades[0]);
         System.out.println(idades[1]);
         System.out.println(idades[2]);
+
+        String [] nomes = new String[4];
+        nomes [0] = "Pedro";
+        nomes [1] = "Maria";
+        nomes [2] = "Carla";
+        nomes [3] = "Teste";
+
+        //nomes = new String[3];
+
+        for (int i = 0; i < nomes.length; i++){
+            System.out.println(nomes[i]);
+        }
     }
 }
