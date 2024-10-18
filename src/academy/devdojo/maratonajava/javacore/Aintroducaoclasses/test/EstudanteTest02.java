@@ -2,12 +2,12 @@ package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.test;
 
 import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio.Estudante;
 
-public class EstudanteTEst02 {
+public class EstudanteTest02 {
     public static void main(String[] args) {
         Estudante estudante = new Estudante();
         Estudante estudante2 = new Estudante();
 
-        estudante.nome ="Leo";
+       // estudante.nome ="Leo";
         System.out.println(estudante.idade);
         System.out.println(estudante.sexo);
         System.out.println(estudante.nome);
